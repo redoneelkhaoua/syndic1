@@ -21,4 +21,34 @@
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL.Design" Version="1.1.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Update="Models\Categorie.cs">
+      <CustomToolNamespace> Syndic.domain.Models</CustomToolNamespace>
+    </Compile>
+    <Compile Update="Models\Choix.cs">
+      <CustomToolNamespace> Syndic.domain.Models</CustomToolNamespace>
+    </Compile>
+    <Compile Update="Models\Dossier.cs">
+      <CustomToolNamespace> Syndic.domain.Models</CustomToolNamespace>
+    </Compile>
+    <Compile Update="Models\Fichier.cs">
+      <CustomToolNamespace> Syndic.domain.Models</CustomToolNamespace>
+    </Compile>
+    <Compile Update="Models\Note.cs">
+      <CustomToolNamespace> Syndic.domain.Models</CustomToolNamespace>
+    </Compile>
+    <Compile Update="Models\Participant.cs">
+      <CustomToolNamespace> Syndic.domain.Models</CustomToolNamespace>
+    </Compile>
+    <Compile Update="Models\Resultat.cs">
+      <CustomToolNamespace> Syndic.domain.Models</CustomToolNamespace>
+    </Compile>
+    <Compile Update="Models\Statut.cs">
+      <CustomToolNamespace> Syndic.domain.Models</CustomToolNamespace>
+    </Compile>
+    <Compile Update="Models\Vote.cs">
+      <CustomToolNamespace> Syndic.domain.Models</CustomToolNamespace>
+    </Compile>
+  </ItemGroup>
+
 </Project>

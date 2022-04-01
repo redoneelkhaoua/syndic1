@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace syndic1.Models
+namespace Syndic.domain.Models
 {
     public partial class Participant
     {
